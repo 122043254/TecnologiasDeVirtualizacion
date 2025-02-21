@@ -1,7 +1,5 @@
 show databases;
 
-create database db;
-
 use db;
 
 CREATE TABLE students(

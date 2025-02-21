@@ -7,9 +7,9 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     conn = mysql.connector.connect(
-        host='localhost',
+        host='192.168.198.134',
         user='root',
-        passwd='',
+        passwd='Lot',
         database='db'
     )
     cursor = conn.cursor()
